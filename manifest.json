@@ -1,0 +1,20 @@
+{
+    "name": "Fuck PASF",
+    "version": "1.0",
+    "author": "Sho Sato",
+    "description": "remove people also search for",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "inject.js"
+    ],
+    "manifest_version": 2
+}
