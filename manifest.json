@@ -1,8 +1,8 @@
 {
-    "name": "Fuck PASF",
+    "name": "Fuck Notification",
     "version": "1.0",
     "author": "Sho Sato",
-    "description": "remove people also search for",
+    "description": "supress notification request popup",
     "content_scripts": [
         {
             "matches": [
